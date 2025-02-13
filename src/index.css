@@ -1,0 +1,58 @@
+/* Nollställ all standard-styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.homeWrapper {
+  display: flex;
+  /* Aktiverar Flexbox */
+  flex-direction: column;
+  /* Staplar elementen i en kolumn */
+  justify-content: center;
+  /* Centrerar vertikalt */
+  align-items: center;
+  /* Centrerar horisontellt */
+  height: 100vh;
+  /* Full höjd av skärmen */
+  background-color: #f0f0f0;
+  /* Valfritt: bakgrundsfärg för att se strukturen */
+}
+
+.Logo {
+  max-width: 200px;
+  /* Justera logotypens storlek */
+  height: auto;
+  /* Bevara proportionerna */
+  margin-bottom: 20px;
+  /* Avstånd mellan logotyp och knappar */
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  /* Staplar knapparna under varandra */
+  gap: 12px;
+  /* Avstånd mellan knapparna */
+}
+
+.SigninButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff0000;
+  color: rgb(123, 10, 10);
+  transition: background-color 0.3s;
+}
+
+.SigninButton:hover,
+.SignupButton:hover {
+  background-color: #840c0c;
+  /* Effekt vid hover */
+}
