@@ -73,7 +73,7 @@
 
 
 .SigninButton, .SignupButton {
-  background-color: rgb(3, 3, 252); /* Ändra bakgrundsfärg till blå */
+  background: linear-gradient(90deg, #f707ff 0%, #3700ff 100%); /* Ändra bakgrundsfärg till blå */
   color: white; /* Ändra textfärg till vit */
   border: none;
   padding: 10px 40px;
@@ -83,7 +83,7 @@
 }
 
 .SignupButton-signup {
-  background-color: blue; /* Ändra bakgrundsfärg till blå */
+  background: linear-gradient(90deg, #f707ff 0%, #3700ff 100%); /* Ändra bakgrundsfärg till blå */
   color: white; /* Ändra textfärg till vit */
   border: none;
   padding: 10px 120px;
@@ -103,7 +103,8 @@
 .signup-title {
   margin-top: -50px; /* Öka avståndet mellan knapparna och texten */
   margin-bottom: 50px;
-  color: blue; /* Ändra textfärg till blå */
+  color: rgb(69, 69, 245); /* Ändra textfärg till blå */
   text-align: center;
   font-size: 50px;
 }
+
