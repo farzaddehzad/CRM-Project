@@ -15,6 +15,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
+import "../Dash.css";
 
 const AppBar = styled(MuiAppBar, {
 })(({theme }) => ({
@@ -178,8 +179,9 @@ export default function Navbar() {
             noWrap
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
+
           >
-            MUI
+        CRM
           </Typography>
           <Search>
             <SearchIconWrapper>

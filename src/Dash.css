@@ -1,5 +1,6 @@
 .gradient-card {
   background: linear-gradient(90deg, #f707ff 0%, #3700ff 100%) !important;
+
 }
 
 .icon {
@@ -11,4 +12,5 @@
   background: #ECEFF1;
   background: linear-gradient(158deg, rgb(224, 224, 224) 0%, rrgb(233, 237, 254) 100%);
 }
+
 
