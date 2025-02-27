@@ -18,7 +18,7 @@ export default function Analys() {
     <>
     <div className='background-hela-sidan'>
      <Navbar />    
-      <Box height={30}/>
+      <Box height={70}/>
     <Box sx={{ display: 'flex' }}>
       <Dashboard />
    <Box component="main" sx={{ flexGrow: 1, p: 3 }}>

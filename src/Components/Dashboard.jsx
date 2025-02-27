@@ -142,6 +142,53 @@ export default function Dashboard() { // Ändra namnet på komponenten till Dash
           />
         </ListItemButton>
       </ListItem>
+      <ListItem disablePadding sx={{ display: 'block' }}onClick={() => navigate('/message')}>
+        <ListItemButton
+          sx={[
+            {
+              minHeight: 48,
+              px: 2.5,
+            },
+            open
+              ? {
+                  justifyContent: 'initial',
+                }
+              : {
+                  justifyContent: 'center',
+                },
+          ]}
+        >
+          <ListItemIcon
+            sx={[
+              {
+                minWidth: 0,
+                justifyContent: 'center',
+              },
+              open
+                ? {
+                    mr: 3,
+                  }
+                : {
+                    mr: 'auto',
+                  },
+            ]}
+          >
+            <InboxIcon />
+          </ListItemIcon>
+          <ListItemText
+            primary="Messages"
+            sx={[
+              open
+                ? {
+                    opacity: 1,   
+                  }
+                : {
+                    opacity: 0,
+                  },
+            ]}
+          />
+        </ListItemButton>
+      </ListItem>
         <ListItem disablePadding sx={{ display: 'block' }}onClick={() => navigate('/notiser')}>
         <ListItemButton
           sx={[
@@ -228,53 +275,6 @@ export default function Dashboard() { // Ändra namnet på komponenten till Dash
               open
                 ? {
                     opacity: 1,   
-                  }
-                : {
-                    opacity: 0,
-                  },
-            ]}
-          />
-        </ListItemButton>
-      </ListItem>
-      <ListItem disablePadding sx={{ display: 'block' }}onClick={() => navigate('/to-Do')}>
-        <ListItemButton
-          sx={[
-            {
-              minHeight: 48,
-              px: 2.5,
-            },
-            open
-              ? {
-                  justifyContent: 'initial',
-                }
-              : {
-                  justifyContent: 'center',
-                },
-          ]}
-        >
-          <ListItemIcon
-            sx={[
-              {
-                minWidth: 0,
-                justifyContent: 'center',
-              },
-              open
-                ? {
-                    mr: 3,
-                  }
-                : {
-                    mr: 'auto',
-                  },
-            ]}
-          >
-            <InboxIcon />
-          </ListItemIcon>
-          <ListItemText
-            primary="To-Do"
-            sx={[
-              open
-                ? {
-                    opacity: 1,
                   }
                 : {
                     opacity: 0,
@@ -383,4 +383,3 @@ export default function Dashboard() { // Ändra namnet på komponenten till Dash
     </Box>
   );
 }
-

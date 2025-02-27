@@ -9,9 +9,9 @@ import Dashboard from './Components/Dashboard'
 import Homes from './pages2/Homes'
 import Notiser from './pages2/Notiser'
 import Pagaende from './pages2/Pagaende'
-import ToDo from './pages2/ToDo'
 import Analys from './pages2/Analys'
 import Anvandare from './pages2/Anvandare'
+import Message from './pages2/Message'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -24,9 +24,9 @@ createRoot(document.getElementById('root')).render(
           <Route path="/homes" element={<Homes />} />
         <Route path="/notiser" element={<Notiser />} />
         <Route path="/pågående" element={<Pagaende />} />
-        <Route path="/to-Do" element={<ToDo />} />
         <Route path="/analys" element={<Analys />} />
         <Route path="/användare" element={<Anvandare />} />
+        <Route path="/message" element={<Message />} />
 
 
       </Routes>
