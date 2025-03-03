@@ -12,16 +12,18 @@ import Pagaende from './pages2/Pagaende'
 import Analys from './pages2/Analys'
 import Anvandare from './pages2/Anvandare'
 import Message from './pages2/Message'
+import Layout from './pages/Layout'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Layout />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/homes" element={<Homes />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/homes" element={<Homes />} />
         <Route path="/notiser" element={<Notiser />} />
         <Route path="/pågående" element={<Pagaende />} />
         <Route path="/analys" element={<Analys />} />
