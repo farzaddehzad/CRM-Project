@@ -1,12 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Button = (props) => {
+const Button = ({ className, text, onClick }) => {
   return (
-    <button className="costum-button"
-      onClick={props.onClick}> {props.text}
-
+    <button className={className} onClick={onClick}>
+      {text}
     </button>
-  )
-}
+  );
+};
 
 export default Button;
