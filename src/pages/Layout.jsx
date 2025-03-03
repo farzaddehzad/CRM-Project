@@ -13,14 +13,14 @@ export default function Layout() {
 
   return (
   
-  <div className='LayoutWrapper'>
-      <div className='LayoutcontentWrapper'>
-        <div className='buttonWrapper-home'>
-          <Button className='SigninButton-home' text="Sign In" onClick={handleOnHome} />
+  <div className='homeWrapper'>
+    
+        <div className='buttonWrapper-Layout'>
+          <Button className='SigninButton-Layout' text="Sign In" onClick={handleOnHome} />
          
         </div>
       </div>
-    </div>
+   
   );
 };
 
