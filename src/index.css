@@ -130,3 +130,66 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.SigninButton-Layout {
+  background-color: rgb(240, 240, 245);
+  /* Ändra bakgrundsfärg till blå /
+      color: rgb(40, 3, 252);
+      / Ändra textfärg till vit /
+      border: none;
+      padding: 10px 40px;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+}
+
+.buttonWrapper-Layout {
+  position: absolute;
+    / Positionera elementet absolut /
+    top: 20px;
+    / Placera elementet 20px från toppen /
+    right: 20px;
+    / Placera elementet 20px från höger */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  width: 450px;
+}
+
+.form-medelande {
+  height: 220px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  width: 100%;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  /* Lägg till padding */
+  background-color: rgb(235, 235, 232);
+  border-radius: 30px;
+}
+
+.Logo-Layout {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 80px;
+  /* Öka marginalen mellan bilden och input-fälten */
+}

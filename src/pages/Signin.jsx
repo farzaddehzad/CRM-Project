@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router';
 
 const Signin = () => {
 
-   const navigate = useNavigate();
+const navigate = useNavigate();
   
   function HandleOnRegister() {
     navigate("/homes");  
